@@ -1,0 +1,19 @@
+{
+  "id": "org.asyar.greeting",
+  "name": "Greetings",
+  "version": "1.0.0",
+  "description": "Testing greeting ext",
+  "author": "Developer",
+  "main": "dist/index.js",
+  "searchable": true,
+  "type": "view",
+  "defaultView": "DefaultView",
+  "commands": [
+    {
+      "id": "open",
+      "name": "Open Greetings",
+      "description": "Testing greeting ext",
+      "resultType": "view"
+    }
+  ]
+}
