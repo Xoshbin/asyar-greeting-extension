@@ -8,16 +8,16 @@ importers:
 
   .:
     dependencies:
-      asyar-api:
+      asyar-sdk:
         specifier: file:../../asyar-sdk
         version: file:../../asyar-sdk
       svelte:
         specifier: ^5.0.0
-        version: 5.53.13
+        version: 5.54.0
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.0
-        version: 5.1.1(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0))
+        version: 5.1.1(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0))
       '@types/rollup-plugin-css-only':
         specifier: ^3.1.2
         version: 3.1.3
@@ -493,7 +493,7 @@ packages:
     resolution: {integrity: sha512-Z/ZeOgVl7bcSYZ/u/rh0fOpvEpq//LZmdbkXyc7syVzjPAhfOa9ebsdTSjEBDU4vs5nC98Kfduj1uFo0qyET3g==}
     engines: {node: '>= 0.4'}
 
-  asyar-api@file:../../asyar-sdk:
+  asyar-sdk@file:../../asyar-sdk:
     resolution: {directory: ../../asyar-sdk, type: directory}
     hasBin: true
 
@@ -888,8 +888,8 @@ packages:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
 
-  svelte@5.53.13:
-    resolution: {integrity: sha512-9P6I/jGcQMzAMb76Uyd6L6RELAC7qt53GOSBLCke9lubh9iJjmjCo+EffRH4gOPnTB/x4RR2Tmt6s3o9ywQO3g==}
+  svelte@5.54.0:
+    resolution: {integrity: sha512-TTDxwYnHkova6Wsyj1PGt9TByuWqvMoeY1bQiuAf2DM/JeDSMw7FjRKzk8K/5mJ99vGOKhbCqTDpyAKwjp4igg==}
     engines: {node: '>=18'}
 
   tar-fs@2.1.4:
@@ -1283,23 +1283,23 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0)))(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0)))(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0))
+      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0))
       debug: 4.4.3
-      svelte: 5.53.13
+      svelte: 5.54.0
       vite: 6.4.1(@types/node@25.5.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0))':
+  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0)))(svelte@5.53.13)(vite@6.4.1(@types/node@25.5.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0)))(svelte@5.54.0)(vite@6.4.1(@types/node@25.5.0))
       debug: 4.4.3
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.21
-      svelte: 5.53.13
+      svelte: 5.54.0
       vite: 6.4.1(@types/node@25.5.0)
       vitefu: 1.1.2(vite@6.4.1(@types/node@25.5.0))
     transitivePeerDependencies:
@@ -1355,7 +1355,7 @@ snapshots:
 
   aria-query@5.3.1: {}
 
-  asyar-api@file:../../asyar-sdk:
+  asyar-sdk@file:../../asyar-sdk:
     dependencies:
       adm-zip: 0.5.16
       chalk: 5.6.2
@@ -1770,7 +1770,7 @@ snapshots:
 
   strip-json-comments@2.0.1: {}
 
-  svelte@5.53.13:
+  svelte@5.54.0:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
