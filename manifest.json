@@ -6,6 +6,7 @@
   "author": "Developer",
   "main": "dist/index.js",
   "searchable": true,
+  "icon": "👋",
   "type": "view",
   "defaultView": "DefaultView",
   "commands": [
@@ -13,7 +14,8 @@
       "id": "open",
       "name": "Open Greetings",
       "description": "Testing greeting ext",
-      "resultType": "view"
+      "resultType": "view",
+      "icon": "👋"
     }
   ]
 }
