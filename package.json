@@ -10,7 +10,7 @@
     "package": "npm run build && zip -r extension.zip dist manifest.json"
   },
   "dependencies": {
-    "asyar-sdk": "^1.0.0",
+    "asyar-sdk": "workspace:*",
     "svelte": "^5.0.0"
   },
   "devDependencies": {
